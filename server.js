@@ -4,6 +4,7 @@ var express = require('express'),
 	app = express(),
 	routes = require('./app/routes/index.js');
 
+app.use(express.static(process.cwd()+'/public'));
 
 routes(app);
 

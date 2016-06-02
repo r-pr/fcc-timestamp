@@ -6,7 +6,7 @@ Full list of requirements can be found at [respective Free Code Camp page](https
 
 # Usage
 
-- The API endpoint is the site name itself (e.g. `https://freetimestamp.herokuapp.com`)
+- The API endpoint is the site name itself (`https://freetimestamp.herokuapp.com`)
 - The API accepts a string with Unix timestamp or date in English (in a GET request):
     - `https://freetimestamp.herokuapp.com/1450137600`
     - `https://freetimestamp.herokuapp.com/January%201,%202016`
