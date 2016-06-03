@@ -3,8 +3,12 @@ body {
     font-family: Helvetica;
     line-height: 1.6;
 }
-a {
+a { 
         color: #4078c0;
+        text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
 }
 #nav {
     background-color: #fafafa;
@@ -17,7 +21,7 @@ a {
 }
 
 #content {
-overflow: auto;
+    overflow: auto;
     border: 1px solid #eee;
     border-radius: 10px;
     margin: 10px;
